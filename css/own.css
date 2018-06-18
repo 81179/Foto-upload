@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.left {
+	text-align: left;
+	text-decoration: none;
+}
+
+.logo {
+	
+	height: 50px;
+	width: 100px;
+	list-style-type: none;
+}
+
+.Background{
+	background: url("../fotos/Background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner {
+	height: 200px;
+	width: 100%;
+}
+
+.artikelFoto {
+	height: 300px;
+	width: 100%;
+}
+
+.center{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.Slide {
+	
+    height: 500px;
+    width: 100%;
+
+}
+
+
+
+li{
+list-style-type:none;
+}
+.banner2 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: black;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+
+
+.hoogte {
+	height: 500px;
+	width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+	.hoogte {
+	
+	height: 500px;
+	width: 600px;
+}
+	
+
+}
+
+@media screen and (max-width: 764px){
+	.hoogte {
+	
+	height: 200px;
+		width: auto;
+	}
+	
+	.Slide{
+		height: auto;
+		width: auto;
+	}
+}
+
+@media screen and (min-width: 654px){
+	.hoogte {
+	
+	height: 300px;
+	width: 550px;
+}
+}
+
+@media screen and (min-width: 375px){
+	.hoogte {
+	
+	height: 200px;
+	width: 350px;
+}
+}
+
